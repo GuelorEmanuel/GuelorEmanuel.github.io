@@ -1,0 +1,23 @@
+---
+layout: projects
+title: project
+---
+
+<!-- Projects-->
+{% for post in site.posts limit: 5  %}
+  <div class="row">
+    <div class="col-md-7">
+      <a href="{{ post.url }}">
+        <img class="img-responsive" src="{{ site.baseurl }}/{{ post.image }}" alt="http://placehold.it/700x300">
+      </a>
+    </div>
+    <div class="col-md-5">
+      <h3>{{post.title | truncatewords: 10 | capitalize }}</h3>
+      <h4>{{post.month}}&#47;{{post.day}}&#47;{{post.year}}</h4>
+      <p>{{ post.content | strip_html | truncatewords:23}}</p>
+      <a class="btn btn-primary" href="{{ post.url }}">Find out more <span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+  </div>
+  <!-- /.row -->
+  <hr>
+{% endfor %}

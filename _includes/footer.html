@@ -1,0 +1,137 @@
+<!-- Footer -->
+  <div id="footer-wrapper">
+    <section id="footer" class="container">
+      <div class="row">
+        <div class="8u 12u(mobile)">
+          <section>
+            <header>
+              <h2>Recent Projects</h2>
+            </header>
+            <ul class="dates">
+               {% for post in site.posts limit: 5 %}
+                 <li>
+                   <span class="date">{{ post.month }}<strong>{{ post.day }}</strong></span>
+                   <h3><li><a href="{{ post.url }}">{{ post.title }}</a></li></h3>
+                   <p>{{ post.content | strip_html | truncatewords:10}}</p>
+                 </li>
+              {% endfor %}
+            </ul>
+          </section>
+        </div>
+        <div class="4u 12u(mobile)">
+          <section>
+            <header>
+              <h2>Check this out?</h2>
+            </header>
+            <a href="#" class="image featured"><img src="{{ site.baseurl }}/images/pic10.jpg" alt="" /></a>
+            <p>
+              Coming soon!
+            </p>
+            <footer>
+              <a href="#" class="button" target="_top">Find out more</a>
+            </footer>
+          </section>
+        </div>
+      </div>
+      <div class="row">
+        <div class="4u 12u(mobile)">
+          <section>
+            <header>
+              <h2>Experienced with</h2>
+            </header>
+            <ul class="divided">
+              <li>
+                <a href="http://en.wikipedia.org/wiki/C_%28programming_language%29" class="icon"><img src="{{ site.baseurl }}/images/justvector/png/prog_c.png" alt="" /></a>
+                <a href="http://en.wikipedia.org/wiki/C%2B%2B" class="icon"><img src="{{ site.baseurl }}/images/justvector/png/prog_cplusplus.png" alt="" /></a>
+                <a href="http://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29" class="icon"><img src="{{ site.baseurl }}/images/justvector/png/prog_csharp.png" alt="" /></a>
+                <a href="http://en.wikipedia.org/wiki/Java_%28programming_language%29" class="icon"><img src="{{ site.baseurl }}/images/justvector/png/java1.png" alt="" /></a>
+                <a href="https://nodejs.org/" class="icon"><img src="{{ site.baseurl }}/images/justvector/png/prog_nodejs01.png" alt="" /></a>
+              </li>
+              <li>
+                <a href="http://en.wikipedia.org/wiki/JavaScript" class="icon"><img src="{{ site.baseurl }}/images/justvector/png/prog_js01.png" alt="" /></a>
+                <a href="https://www.sqlite.org/" class="icon"><img src="{{ site.baseurl }}/images/justvector/png/sql4.png" alt="" /></a>
+                <a href="http://en.wikipedia.org/wiki/HTML" class="icon"><img src="{{ site.baseurl }}/images/justvector/png/html5_01.png" alt="" /></a>
+                <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets" class="icon"><img src="{{ site.baseurl }}/images/justvector/png/css3_01.png" alt="" /></a>
+                <a href="http://en.wikipedia.org/wiki/Bash_%28Unix_shell%29" class="icon"><img src="{{ site.baseurl }}/images/justvector/png/prog_bash02.png" alt="" /></a>
+              </li>
+              <li>
+              </li>
+
+            </ul>
+          </section>
+        </div>
+        <div class="4u 12u(mobile)">
+          <section>
+            <header>
+              <h2>Developing Skills With</h2>
+            </header>
+            <ul class="divided">
+              <li>
+                <a href="http://php.net/" class="icon"><img src="{{ site.baseurl }}/images/justvector/png/prog_php01.png" alt="" /></a>
+                <a href="https://www.python.org/" class="icon"><img src="{{ site.baseurl }}/images/justvector/png/python4.png" alt="" /></a>
+                <a href="http://developer.android.com/index.html" class="icon"><img src="{{ site.baseurl }}/images/justvector/png/android.png" alt="" /></a>
+                <a href="https://developer.apple.com/devcenter/ios/index.action" class="icon"><img src="{{ site.baseurl }}/images/justvector/png/os_ios_dark.png" alt="" /></a>
+                <a href="https://unity3d.com/" class="icon"><img src="{{ site.baseurl }}/images/justvector/png/unity.png" alt="" /></a>
+              </li>
+              <li></li>
+            </ul>
+          </section>
+        </div>
+        <div class="4u 12u(mobile)">
+          <section>
+            <header>
+              <h2>Connect With Me</h2>
+            </header>
+            <ul class="social">
+              <li><a class="icon fa-linkedin" href="https://www.linkedin.com/pub/guelor-emanuel/91/ab3/42"><span class="label">LinkedIn</span></a></li>
+              <li><a class="icon fa-github" href="https://github.com/GuelorEmanuel"><span class="label">Google+</span></a></li>
+            </ul>
+            <ul class="contact">
+              <li>
+                <h3>Address</h3>
+                <p>
+                  Ottawa<br />
+                  Ontario, Canada<br />
+                </p>
+              </li>
+              <li>
+                <h3>Mail</h3>
+                <p><a href="mailto:{{ site.emailtest }}?Subject=Hello%20again">{{ site.emailtest }}</a></p>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+      <div class="row">
+        <div class="12u">
+
+          <!-- Copyright -->
+            <div id="copyright">
+              <ul class="links">
+                <li>Put together by &nbsp;<b>{{ site.name }}</b></li>
+                <li>Template by: <a href="http://html5up.net">HTML5 UP</a></li>
+              </ul>
+            </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+</div>
+
+<!-- Scripts -->
+<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/jquery.dropotron.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/skel.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/skel-viewport.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="{{ site.baseurl }}/assets/js/main.js"></script>
+<!-- jQuery -->
+<script src="{{ site.baseurl }}/assets/js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<!--
+	Dopetrope by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<meta charset="utf-8" />
+    <title>{% if page.title %} {{ page.title }} | {% endif %} {{site.title}}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <meta name="description" content="{{ site.description }}">
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!-- Guelor Emanuel Framework -->
+		<link href='{{ site.baseurl }}/assets/css/guelor-framework.css' rel='stylesheet' type="text/css" media='screen'>
+		<link rel='shortcut icon' href='{{ site.baseurl }}/images/favicon.ico' type='image/x-icon'/ >
+
+	</head>
+
+	<body class="homepage">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<div id="header">
+						<!-- Nav -->
+							<nav id="nav">
+									<!-- I need to create another banner within the top banner -->
+									<div id="logo">
+										<li><a href="index.html"><img src="{{ site.baseurl }}/images/m_cubedguelor.jpg" alt=""></a></li>
+
+									</div>
+
+									<div id="socialMedia">
+
+										<ul>
+											<li><a href="https://www.linkedin.com/pub/guelor-emanuel/91/ab3/42"><img src="{{ site.baseurl }}/images/justvector/png/linkedin_alt.png" alt=""></a></li>
+											<li><a href="https://github.com/GuelorEmanuel"><img src="{{ site.baseurl }}/images/justvector/png/github_alt.png" alt=""></a></li>
+										</ul>
+
+									</div>
+
+								<ul>
+									<li class="current"><a href="/">Home</a></li>
+									<li>
+										<a href="/gallery/">Art</a>
+										<!--<ul>
+											<li>
+												<a href="">Painting</a>
+												<ul>
+													<li><a href="#">Watercolor</a></li>
+													<li><a href="acrylic.html">Acrylic paint</a></li>
+													<li><a href="#">Oil paint</a></li>
+												</ul>
+											</li>
+											<li>
+												<a href="">Sketches</a>
+												<ul>
+													<li><a href="#">Figure & Gesture</a></li>
+													<li><a href="sketches.html">Concept</a></li>
+												</ul>
+											</li>
+
+
+										</ul>-->
+									</li>
+									<li><a href="/projects/">Projects</a></li>
+									<li><a href="/about/">About</a></li>
+									<li><a href="/contact/">Contact</a></li>
+								</ul>
+							</nav>

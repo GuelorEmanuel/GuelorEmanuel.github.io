@@ -1,0 +1,28 @@
+/* Guelor Emanuel Framework */
+@import url("font-awesome.min.css");
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
+
+
+ol, ul { list-style: none;}
+
+
+.homepage         { width: auto; margin: 0px auto; }
+
+#wrappers 		   { width:auto; margin:0px auto; background-color:#ffffff; }
+
+
+#logo     		   { margin:0 0 0 10px; float:left; }
+
+#socialMedia       { float:right; margin:0 10px 0 0;  }
+
+#socialMedia p     { font-size:11px; margin:4px 10px 4px 0px;  }
+
+#socialMedia img   { width:24px; height:24px; }
+
+#socialMedia ul li { display:inline; }
+
+.photobanner {
+    height: 233px;
+    width: 3550px;
+    margin-bottom: 80px;
+}
