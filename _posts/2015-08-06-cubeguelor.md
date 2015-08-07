@@ -29,4 +29,4 @@ The fact that GitHub provides a [free hosting for Jekyll blogs](https://pages.gi
 I then went on to use a basic template from HTML5, which I refactored a bit to my liking.
 Overall I really enjoyed learning about Jekyll, and I believe I will continue to learn more about it and it plugins as I continue to improve this temporary site in the future.
 
-##[View/Dowload Source](https://github.com/GuelorEmanuel/mygithubpage)...
+##[View/Dowload Source](https://github.com/GuelorEmanuel/GuelorEmanuel.github.io)
