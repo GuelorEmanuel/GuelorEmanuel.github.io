@@ -25,21 +25,11 @@
 				<div id="header-wrapper">
 					<div id="header">
 
+						<!-- Logo -->
+						<h1><li><a href="index.html"><img src="/images/m_cubedguelor.jpg" alt="cubeguelor"></a></li></h1>
 						<!-- Nav -->
 							<nav id="nav">
 
-								<div id="socialMedia">
-									<ul>
-										<li><a href="https://www.linkedin.com/pub/guelor-emanuel/91/ab3/42"><img src="/images/justvector/png/linkedin_alt.png" alt=""></a></li>
-										<li><a href="https://github.com/GuelorEmanuel"><img src="/images/justvector/png/github_alt.png" alt=""></a></li>
-									</ul>
-
-								</div>
-								<!-- I need to create another banner within the top banner -->
-								<div id="logo">
-									<li><a href="/index.html"><img src="/images/m_cubedguelor.jpg" alt=""></a></li>
-
-								</div>
 								<ul>
 
 									<li><a href="/">Home</a></li>
@@ -70,6 +60,8 @@
 										<a href="/contact/">Contact</a>
 									</li>
 
+									<li><a href="https://www.linkedin.com/pub/guelor-emanuel/91/ab3/42"><img src="/images/justvector/png/linkedin_alt.png" alt=""></a></li>
+									<li><a href="https://github.com/GuelorEmanuel"><img src="/images/justvector/png/github_alt.png" alt=""></a></li>
 								</ul>
 							</nav>
 
@@ -79,39 +71,45 @@
 
 
 <!-- Main -->
-  <div id="main-wrapper">
-    <div class="container">
+<div id="main-wrapper">
+  <div class="container">
+    <article class="box post">
+      <header>
+        <h2>Contact me</h2>
+        <p>Please feel free to contact me if you have any questions or commments</p>
+      </header>
+    </article>
 
-      <!-- Content -->
-      <h1> Contact me </h1>
-      <p> Please feel free to contact me if you have any questions or commments </p>
+    <!--Contact Form-->
+    <form id ="contact-form" role="form" action="//formspree.io/gueloremanuel@cubeguelor.me" method="post" >
+      <div class="col-lg-6">
+        <div class="form-group">
+          <label for="InputName">Your Name</label>
+          <div class="input-group">
+            <input type="text" name="InputName" id="InputName" placeholder="Enter Name" required>
+            <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="InputEmail">Your Email</label>
+          <div class="input-group">
+              <input type="email" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
+              <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="InputMessage">Message</label>
+          <div class="input-group">
+            <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+                <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+          </div>
+        </div>
+        <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
+      </div>
+    </form>
 
-      <!--Contact Form-->
-      <form id ="contact-form" role="form" action="//formspree.io/gueloremanuel@cubeguelor.me" method="post" >
-        <div class="col-lg-6">
-          <div class="form-group">
-            <label for="InputName">Your Name</label>
-            <div class="input-group">
-              <input type="text" name="InputName" id="InputName" placeholder="Enter Name" required>
-              <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
-            </div>
-            <div class="form-group">
-              <label for="InputEmail">Your Email</label>
-              <div class="input-group">
-                <input type="email" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
-                <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
-              </div>
-              <div class="form-group">
-                <label for="InputMessage">Message</label>
-                <div class="input-group">
-                  <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
-                  <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
-              </div>
-              <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
-            </div>
-          </form>
-    </div>
   </div>
+</div>
 
 
 <!-- Footer -->
@@ -126,7 +124,7 @@
             <ul class="dates">
                
                  <li>
-                   <span class="date">August<strong>6</strong></span>
+                   <span class="date">August<strong>7</strong></span>
                    <h3><li><a href="/2015/08/06/cubeguelor/">cubeguelor, this website</a></li></h3>
                    <p>cubeguelor, this website 2015/08/07 Built using:&nbsp; I created this website,...</p>
                  </li>
@@ -200,7 +198,7 @@
             </header>
             <ul class="social">
               <li><a class="icon fa-linkedin" href="https://www.linkedin.com/pub/guelor-emanuel/91/ab3/42"><span class="label">LinkedIn</span></a></li>
-              <li><a class="icon fa-github" href="https://github.com/GuelorEmanuel"><span class="label">Google+</span></a></li>
+              <li><a class="icon fa-github" href="https://github.com/GuelorEmanuel"><span class="label">GitHub</span></a></li>
             </ul>
             <ul class="contact">
               <li>
