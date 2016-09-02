@@ -8,7 +8,7 @@
               <h2>Recent Projects</h2>
             </header>
             <ul class="dates">
-               {% for post in site.posts limit: 5 %}
+               {% for post in site.posts limit: 3 %}
                  <li>
                    <span class="date">{{ post.month }}<strong>{{ post.day }}</strong></span>
                    <h3><li><a href="{{ post.url }}">{{ post.title }}</a></li></h3>
@@ -23,12 +23,12 @@
             <header>
               <h2>Check this out?</h2>
             </header>
-            <a href="#" class="image featured"><img src="{{ site.baseurl }}/images/pic10.jpg" alt="" /></a>
+            <a href="https://twitter.com/_Minority_Games" class="image featured"><img src="{{ site.baseurl }}/images/foodfighter.jpg" alt="" /></a>
             <p>
               Coming soon!
             </p>
             <footer>
-              <a href="#" class="button" target="_top">Find out more</a>
+              <a href="https://twitter.com/_Minority_Games" class="button" target="_top">Find out more</a>
             </footer>
           </section>
         </div>

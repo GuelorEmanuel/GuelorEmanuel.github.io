@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title> About Guelor Emanuel |  CubeGuelor</title>
+		<title> An Implementation of FTP using C/C++ |  CubeGuelor</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!-- Bootstrap Core CSS -->
@@ -47,8 +47,9 @@
 										<a href="/projects/">Projects</a>
 									</li>
 									
-									  <li class="current">
-											
+											  <li>
+
+									
 
 										<a href="/about/">About</a>
 									</li>
@@ -68,31 +69,39 @@
 					</div>
 				</div>
 
-
 <!-- Main -->
-		<div id="main-wrapper">
-			<div class="container">
+<div id="main-wrapper">
+  <div class="container">
+    <!-- Content -->
+    <article class="box post">
+      <h3>An Implementation of FTP using C/C++</h3>
 
-				<a href="#" class="image featured"><img src="/images/about-me.jpg" alt="" /></a>
+<h1>2015/12/25</h1>
 
-				<!-- Content -->
-				<hr class="featurette-divider">
+<h1>Built using:&nbsp;C/C++</h1>
 
-				<!-- First Featurette -->
-				<div class="featurette" id="about">
-					<img class="featurette-image img-circle img-responsive pull-right" src="/images/dreamteam/Guelor.jpg" alt="" >
-					<h2 class="featurette-heading">Guelor Emanuel</h2>
-					<p class="lead">
-						I am currently a Computer Science students studying at Carleton University in Ottawa aspiring to become professional software developer. The purpose of this site is to provide a place to publish my projects, and other related works. In my spare time I like to program, web/graphic design, painting, and creating concept art.
-					</p>
-					<footer>
-						<a href="/cv/GuelorEmanuelResume.pdf" class="button alt">Download my resume</a>
-					</footer>
-				</div>
+<p>The purpose of this project was to  build a client–server file transfer system using the Socket API. The server is started on a specific number and listens for requests. The Client is started with the IP address and port number of the server. It sends requests to the server. The server handles the requests and returns replies to the client. The client handles the replies.</p>
 
-			</div>
-		</div>
+<p>The System is inspired by Bash CLI. Using native bash commands, the user should be able to add, get and create files/directories on the server from the client computer.</p>
 
+<h1>Example of requests:</h1>
+
+<ol>
+<li>ls: print on the client window a listing of the contents of the current directory on the server machine.</li>
+<li>get remote-file:  retrieve  the  remote-file  on  the  server  and  store  it  on  the client machine. It is given the same name it has on the server machine.</li>
+<li>put file-name: put and store the file from  the  client  machine  to the  server machine. On the server, it is given the same name it has on the client machine.</li>
+<li>cd directory-name: change the on the server (“cd ..” also works)</li>
+<li>mkdir directory-name: create  a  new sub-directory  named directory-name</li>
+</ol>
+
+
+<p>This project enabled me to explore in depth the concept of TCP/IP, UDP, Socket Api and the type of strategies to take when handling any type of file transfer over the internet.</p>
+
+<h2><a href="https://github.com/GuelorEmanuel/C-CC-File-Transfer">View/Dowload Source</a></h2>
+
+    </article>
+  </div>
+</div>
 <!-- Footer -->
   <div id="footer-wrapper">
     <section id="footer" class="container">
@@ -107,7 +116,7 @@
                  <li>
                    <span class="date">December<strong>17</strong></span>
                    <h3><li><a href="/2015/12/17/cubeguelor/">An Implementation of Decentralized Peer to Peer File Sharing</a></li></h3>
-                   <p>An Implementation of Decentralized Peer to Peer File Sharing 2015/17/25...</p>
+                   <p>### An Implementation of Decentralized Peer to Peer File Sharing...</p>
                  </li>
               
                  <li>
