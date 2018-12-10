@@ -1,10 +1,10 @@
 ---
-layout: post
-title: cubeguelor, this website
-image: images/xx_cubedguelor.jpg
-month: August
-day: "7"
-year: "2015"
+# layout: post
+# title: cubeguelor, this website
+# image: images/xx_cubedguelor.jpg
+# month: August
+# day: "7"
+# year: "2015"
 
 ---
 ### cubeguelor, this website

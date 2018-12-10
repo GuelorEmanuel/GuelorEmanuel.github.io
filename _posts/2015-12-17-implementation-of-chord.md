@@ -1,10 +1,10 @@
 ---
-layout: post
-title: An Implementation of Decentralized Peer to Peer File Sharing
-image: images/rsz_chordnetwork.png
-month: "December"
-day: "17"
-year: "2015"
+# layout: post
+# title: An Implementation of Decentralized Peer to Peer File Sharing
+# image: images/rsz_chordnetwork.png
+# month: "December"
+# day: "17"
+# year: "2015"
 
 ---
 ###  An Implementation of Decentralized Peer to Peer File Sharing

@@ -16,7 +16,6 @@
             </li>
             <li>
                 <a href="/life-me/">
-                    <!-- <img class="nav-l" src="{{ site.baseurl }}/images/navigation/life.svg">-->
                     {% if page.layout == 'life-me' %}
                         <img class="nav-l" src="{{ site.baseurl }}/images/navigation/life-l.svg">
                     {% else %}
@@ -27,10 +26,18 @@
             <li>
                 
             </li>
+            <div class="links">
+                <a href="https://github.com/GuelorEmanuel">
+                    <img src="{{ site.baseurl }}/images/github.svg">
+                </a>
+                <a href="https://www.instagram.com/_guelor/">
+                    <img src="{{ site.baseurl }}/images/email.svg">
+                </a>
+            </div>
         </ul>
     </nav>
 </section>
-<nav class="r-menu">
+<nav class="r-menu" id="sidenav">
     <a href="#"><img src="{{ site.baseurl }}/images/nav-icon2.png" id="menu-icon"></a>
     <ul id="nav">
         <li>
@@ -45,7 +52,6 @@
         </li>
         <li>
             <a href="/life-me/">
-                <!-- <img class="nav-l" src="{{ site.baseurl }}/images/navigation/life.svg">-->
                 {% if page.layout == 'life-me' %}
                     <img class="nav-l" src="{{ site.baseurl }}/images/navigation/life-l.svg">
                 {% else %}

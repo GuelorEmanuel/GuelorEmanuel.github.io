@@ -10,6 +10,7 @@
 		<!-- Guelor Emanuel Framework -->
 		<link href='/assets/css/guelor-framework.css' rel='stylesheet' type="text/css" media='screen' />
 		<link rel='shortcut icon' href='/images/favicon.ico' type='image/x-icon' />
+		<link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
 		<script src="/assets/js/jquery.min.js"></script>
 
 	</head>
@@ -32,7 +33,6 @@
             </li>
             <li>
                 <a href="/life-me/">
-                    <!-- <img class="nav-l" src="/images/navigation/life.svg">-->
                     
                         <img class="nav-l" src="/images/navigation/life-l.svg">
                     
@@ -41,10 +41,18 @@
             <li>
                 
             </li>
+            <div class="links">
+                <a href="https://github.com/GuelorEmanuel">
+                    <img src="/images/github.svg">
+                </a>
+                <a href="https://www.instagram.com/_guelor/">
+                    <img src="/images/email.svg">
+                </a>
+            </div>
         </ul>
     </nav>
 </section>
-<nav class="r-menu">
+<nav class="r-menu" id="sidenav">
     <a href="#"><img src="/images/nav-icon2.png" id="menu-icon"></a>
     <ul id="nav">
         <li>
@@ -57,7 +65,6 @@
         </li>
         <li>
             <a href="/life-me/">
-                <!-- <img class="nav-l" src="/images/navigation/life.svg">-->
                 
                     <img class="nav-l" src="/images/navigation/life-l.svg">
                 
@@ -69,6 +76,21 @@
 
 
     <section class="content">
+        <ul>
+            <li class="life-me-link" 
+                title="The purpose of this project was to implement a decentralized Peer to Peer File Sharing system using the Chord algorithm">
+                <a href="https://docs.google.com/document/d/1XNYoB4SGTUOFAfEgk3pVBTRBogazLfd3-cE82utIJUs/edit?usp=sharing">
+                    Decentralized Peer to Peer File Sharing
+                </a>
+            </li>
+            <li class="life-me-link" 
+                title="An Implementation of FTP using C/C++">
+                <a href="https://github.com/GuelorEmanuel/C-CC-File-Transfer">
+                    An Implementation of FTP using C/C++
+                </a>
+            </li>
+            
+        </ul>
     
     </section>
 <!-- Footer -->
@@ -76,19 +98,10 @@
 </div>
 
 <!-- Scripts -->
-<script src="/assets/js/jquery.dropotron.min.js"></script>
-<script src="/assets/js/skel.min.js"></script>
-<script src="/assets/js/skel-viewport.min.js"></script>
-<script src="/assets/js/util.js"></script> 
 <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-<script src="/assets/js/main.js"></script> -->
+<script src="/assets/js/main.js"></script>
 <!-- jQuery -->
 <script src="/assets/js/jquery.js"></script>
-<script src="/assets/js/jqBootstrapValidation.js"></script> -->
-<!-- Bootstrap Core JavaScript -->
-<script src="/assets/js/bootstrap.min.js"></script>
-<script src="/assets/js/contact-me.js"></script>
-
 <script src="/assets/js/jquery.cycle2.js"></script>
 <script src="/assets/js/jquery.cycle2.swipe.min.js"></script>
 
@@ -151,13 +164,6 @@
          '../images/streams-of-thought/experiment12.jpg',
          '../images/streams-of-thought/experiment13.jpg',
          '../images/streams-of-thought/aggression.jpg',
-
-
-
-
-
-        
-
     );
 </script>
 
