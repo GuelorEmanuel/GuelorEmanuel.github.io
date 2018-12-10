@@ -404,7 +404,8 @@ a:hover, a:active {
 @media only screen and (max-width: 640px) {
     .cycle-pager {
       display: none;
-    }
+	}
+}
 
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
     .cycle-overlay { padding: 4px }
