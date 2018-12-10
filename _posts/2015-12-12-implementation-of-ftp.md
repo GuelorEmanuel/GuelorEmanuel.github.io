@@ -1,10 +1,10 @@
 ---
-layout: post
-title: An Implementation of FTP using C/C++
-image: images/filetransfersystem.jpg
-month: "December"
-day: "12"
-year: "2015"
+# layout: post
+# title: An Implementation of FTP using C/C++
+# image: images/filetransfersystem.jpg
+# month: "December"
+# day: "12"
+# year: "2015"
 
 ---
 ###  An Implementation of FTP using C/C++

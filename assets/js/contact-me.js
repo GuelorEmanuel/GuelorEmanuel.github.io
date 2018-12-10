@@ -23,7 +23,7 @@ $(function() {
             }
 
             $.ajax({
-            	url: "//formspree.io/gueloremanuel@cubeguelor.me",
+            	url: "https://formspree.io/guelor.emanuel@alumni.carleton.ca",
             	method: "POST",
             	data: {
             		name: name,

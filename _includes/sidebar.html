@@ -1,0 +1,65 @@
+<section class="sidebar">
+    <a href="{{ site.baseurl }}/index.html">
+        <img src="{{ site.baseurl }}/images/m_cubedguelor.jpg" alt="cubeguelor" class="logo">
+    </a>
+    <nav>
+        <ul class="menu" id="menu1">
+            <li>
+                <a href="/streams-of-thought/">
+                    {% if page.layout == 'streams-of-thought' %}
+                        <img class="nav-s" src="{{ site.baseurl }}/images/navigation/streams-of-thought-l.svg">
+                    {% else %}
+                        <img class="nav-s" src="{{ site.baseurl }}/images/navigation/streams-of-thought.svg">
+
+                    {% endif %}
+                </a>
+            </li>
+            <li>
+                <a href="/life-me/">
+                    {% if page.layout == 'life-me' %}
+                        <img class="nav-l" src="{{ site.baseurl }}/images/navigation/life-l.svg">
+                    {% else %}
+                        <img class="nav-l" src="{{ site.baseurl }}/images/navigation/life.svg">
+                    {% endif %}
+                </a>
+            </li>
+            <li>
+                
+            </li>
+            <div class="links">
+                <a href="https://github.com/GuelorEmanuel">
+                    <img src="{{ site.baseurl }}/images/github.svg">
+                </a>
+                <a href="https://www.instagram.com/_guelor/">
+                    <img src="{{ site.baseurl }}/images/email.svg">
+                </a>
+            </div>
+        </ul>
+    </nav>
+</section>
+<nav class="r-menu" id="sidenav">
+    <a href="#"><img src="{{ site.baseurl }}/images/nav-icon2.png" id="menu-icon"></a>
+    <ul id="nav">
+        <li>
+            <a href="/streams-of-thought/">
+                {% if page.layout == 'streams-of-thought' %}
+                    <img class="nav-s" src="{{ site.baseurl }}/images/navigation/streams-of-thought-l.svg">
+                {% else %}
+                    <img class="nav-s" src="{{ site.baseurl }}/images/navigation/streams-of-thought.svg">
+
+                {% endif %}
+            </a>
+        </li>
+        <li>
+            <a href="/life-me/">
+                {% if page.layout == 'life-me' %}
+                    <img class="nav-l" src="{{ site.baseurl }}/images/navigation/life-l.svg">
+                {% else %}
+                    <img class="nav-l" src="{{ site.baseurl }}/images/navigation/life.svg">
+                {% endif %}
+            </a>
+        </li>
+    </ul>
+</nav>
+
+
