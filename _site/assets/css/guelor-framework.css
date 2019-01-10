@@ -69,10 +69,6 @@ a {
 	text-decoration: none;
 }
 
-a:link, a:visited {
-	color: #666;
-}
-
 a:hover, a:active {
 	color: #000;
 }
@@ -216,7 +212,7 @@ a:hover, a:active {
 	margin-left: 10px;
 }
 
-.content {
+.content-g {
 	position: absolute;
 	top: 30px;
 	left: 240px;
@@ -324,7 +320,7 @@ a:hover, a:active {
 		display: none;
 	}
 
-	.content {
+	.content-main {
 		position: absolute;
 		top: 180px;
 		left: 10px;

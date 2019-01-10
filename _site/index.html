@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<title> Streams of Thought |  CubeGuelor</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta name="viewport" content="user-scalable=0;"/>
 		<meta name="msvalidate.01" content="FB13B6DA31CCCA4ADC3E1A46E38C0DF5" />
 		<meta name="google-site-verification" content="_B53YHPitD1v5NJbh4umr_pY6KnDQHifNGGSjbZTCQE" />
@@ -11,6 +12,7 @@
 		<link href='/assets/css/guelor-framework.css' rel='stylesheet' type="text/css" media='screen' />
 		<link rel='shortcut icon' href='/images/favicon.ico' type='image/x-icon' />
 		<link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="/assets/semantic-dist/semantic.css" />
 		<script src="/assets/js/jquery.min.js"></script>
 
 	</head>
@@ -73,33 +75,35 @@
 
 
 
-  <section class="content streams-of-thought">
+  <section class="content-main">
+    <div id='streams-of-thought' class="content-g">
       <div 
-          class="cycle-slideshow auto" 
-          data-cycle-fx="fade" 
-          data-cycle-timeout="4000" 
-          data-cycle-speed="500" 
-          data-cycle-swipe="true" 
-          data-cycle-log="false" 
-          data-cycle-caption=".caption2" 
-          data-cycle-caption-template=" / 137<span style='float:right;'></span>" 
-          data-cycle-loader="true" 
-          data-cycle-progressive="#images2" 
-          style="position: relative;">
-          <img data-cycle-title="" 
-          class="slides cycle-slide cycle-sentinel" 
-          data-cycle-timeout="5000"
-          src="/images/streams-of-thought/siblings.jpg" 
-          style="display: block; position: static; top: 0px; left: 0px; z-index: 99; opacity: 1; visibility: hidden;">
-                
+        class="cycle-slideshow auto" 
+        data-cycle-fx="fade" 
+        data-cycle-pause-on-hover="true"
+        data-cycle-timeout="4000" 
+        data-cycle-speed="500" 
+        data-cycle-swipe="true" 
+        data-cycle-log="true" 
+        data-cycle-loader="true" 
+        data-cycle-progressive="#images2" 
+        style="position: relative;">
+        <img 
+            data-cycle-title="" 
+            class="slides cycle-slide cycle-sentinel" 
+            data-cycle-timeout="5000"
+            src="/images/streams-of-thought/siblings.jpg" 
+            style="display: block; position: static; top: 0px; left: 0px; z-index: 99; opacity: 1; visibility: hidden;">
+        <div class="cycle-caption">
+        </div>  
         <script id="images2" type="text/cycle">
         </script>
         <div class="cycle-prev"></div>
-
         <div class="cycle-next"></div>
       </div>
-      <div class="caption2">0 / 137<span style="float:right;"></span></div>
-		</section>
+      <div class="cycle-caption"><span style="float:right;"></span></div>
+    </div>
+  </section>
 <!-- Footer -->
 
 </div>
@@ -131,44 +135,43 @@
         '../images/streams-of-thought/siblings.jpg',
         '../images/streams-of-thought/dance.jpg',
         '../images/streams-of-thought/himba_tribes.jpg',
+        '../images/streams-of-thought/sandy_hill_life_drawing_2.jpg',
         '../images/streams-of-thought/dance2.jpg',
         '../images/streams-of-thought/marbles.jpg',
         '../images/streams-of-thought/dance3.jpg',
         '../images/streams-of-thought/sahara_desert.jpg',
+        '../images/streams-of-thought/psychology.jpeg',
         '../images/streams-of-thought/earth.jpg',
         '../images/streams-of-thought/dance4.jpg',
         '../images/streams-of-thought/strange_things.jpg',
         '../images/streams-of-thought/dance5.jpg',
         '../images/streams-of-thought/strange_things2.jpg',
         '../images/streams-of-thought/dance6.jpg',
-        '../images/streams-of-thought/strange_things2.jpg',
         '../images/streams-of-thought/thank_you.jpg',
-         '../images/streams-of-thought/group_3_thePoor.jpg',
-         '../images/streams-of-thought/group_2_EEG_interface.jpg',
-         '../images/streams-of-thought/experiment16.jpg',
-         '../images/streams-of-thought/spaceball.jpg',
-         '../images/streams-of-thought/experiment.jpg',
-         '../images/streams-of-thought/sorrow.jpg',
-         '../images/streams-of-thought/rough_sketch.jpg',
-         '../images/streams-of-thought/hot_lead.jpg',
-         '../images/streams-of-thought/experiment2.jpg',
-         '../images/streams-of-thought/experiment3.jpg',
-         '../images/streams-of-thought/just_chillin.jpg',
-         '../images/streams-of-thought/group_2_EEG_interface2_female.jpg',
-         '../images/streams-of-thought/experiment15.jpg',
-         '../images/streams-of-thought/experiment4.jpg',
-         '../images/streams-of-thought/experiment5.jpg',
-         '../images/streams-of-thought/experiment6.jpg',
-         '../images/streams-of-thought/flex.jpg',
-         '../images/streams-of-thought/experiment7.jpg',
-         '../images/streams-of-thought/experiment14.jpg',
-         '../images/streams-of-thought/experiment8.jpg',
-         '../images/streams-of-thought/experiment9.jpg',
-         '../images/streams-of-thought/experiment10.jpg',
-         '../images/streams-of-thought/experiment11.jpg',
-         '../images/streams-of-thought/experiment12.jpg',
-         '../images/streams-of-thought/experiment13.jpg',
-         '../images/streams-of-thought/aggression.jpg',
+        '../images/streams-of-thought/group_3_thePoor.jpg',
+        '../images/streams-of-thought/group_2_EEG_interface.jpg',
+        '../images/streams-of-thought/experiment16.jpg',
+        '../images/streams-of-thought/spaceball.jpg',
+        '../images/streams-of-thought/experiment.jpg',
+        '../images/streams-of-thought/sorrow.jpg',
+        '../images/streams-of-thought/rough_sketch.jpg',
+        '../images/streams-of-thought/hot_lead.jpg',
+        '../images/streams-of-thought/experiment2.jpg',
+        '../images/streams-of-thought/experiment3.jpg',
+        '../images/streams-of-thought/just_chillin.jpg',
+        '../images/streams-of-thought/group_2_EEG_interface2_female.jpg',
+        '../images/streams-of-thought/experiment15.jpg',
+        '../images/streams-of-thought/sandy_hill_life_drawing_1.jpg',
+        '../images/streams-of-thought/experiment5.jpg',
+        '../images/streams-of-thought/experiment6.jpg',
+        '../images/streams-of-thought/sandy_hill_life_drawing_3.jpg',
+        '../images/streams-of-thought/experiment7.jpg',
+        '../images/streams-of-thought/experiment14.jpg',
+        '../images/streams-of-thought/experiment9.jpg',
+        '../images/streams-of-thought/experiment10.jpg',
+        '../images/streams-of-thought/experiment12.jpg',
+        '../images/streams-of-thought/experiment13.jpg',
+        '../images/streams-of-thought/aggression.jpg',
     );
 </script>
 
